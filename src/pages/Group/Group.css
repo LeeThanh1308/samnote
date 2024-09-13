@@ -1,0 +1,41 @@
+.group-sidebar {
+ background: #b6f6ff;
+}
+
+.search-message {
+ background: #dffffe;
+}
+
+.group-buttons > li button {
+ transition: all 0.3;
+ padding: 2px 5px;
+ border-radius: 3px;
+}
+
+.group-buttons > li button.active {
+ background-color: black;
+ color: white;
+}
+
+.group-buttons > li button:hover {
+ background-color: black;
+ color: white;
+}
+
+.show-buttons > ul {
+ display: none;
+ transition: all 0.3;
+}
+
+.show-buttons > ul > li > button {
+ padding: 5px;
+ transition: 0.3s;
+ width: 100%;
+ color: white;
+ text-align: left;
+}
+
+.show-buttons > ul > li > button:hover {
+ background-color: white;
+ color: black;
+}

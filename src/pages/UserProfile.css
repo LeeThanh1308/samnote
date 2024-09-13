@@ -1,0 +1,26 @@
+.hide-scroll {
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+.radius-quicknotes {
+  border-radius: 12px;
+}
+
+.truncate-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hide-quick {
+  display: none;
+}
+
+.borderNone:hover {
+  border: none;
+}
