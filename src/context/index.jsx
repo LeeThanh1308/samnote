@@ -105,6 +105,9 @@ const AppProvider = ({ children }) => {
   severity: '',
  })
 
+ 
+ 
+
  useEffect(() => {
   // Lấy dữ liệu từ localStorage khi component mount
   const localUser = JSON.parse(localStorage.getItem(USER))

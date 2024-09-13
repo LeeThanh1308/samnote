@@ -54,6 +54,7 @@ const Group = () => {
   image: null,
   emoji: null,
  })
+
  const { content, image, emoji } = messageForm
  const [showEmoji, setShowEmoji] = useState(false)
 
