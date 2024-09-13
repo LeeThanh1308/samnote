@@ -51,6 +51,7 @@ const AppSnackbar = () => {
   );
 };
 
+
 function App() {
   const isLogin = JSON.parse(localStorage.getItem("USER"));
 
@@ -68,7 +69,9 @@ function App() {
 
         <Route element={<RootLayout />}>
           <Route path="/other-user/:id" element={<OtherUser />} />
-          <Route path="/user/note/:id?" element={<UserNotes />} />
+          {/* <Route path="/user/note" element={<UserNotes />} /> */}
+          <Route path="/user/note/:id" element={<UserNotes />} />
+          
           <Route path="/user/setting" element={<UserSetting />} />
           <Route path="/user/sketch" element={<UserSketch />} />
           <Route path="/user/group" element={<UserGroup />} />

@@ -29,7 +29,7 @@ const navbarItems = [
  {
   name: 'Note',
   icon: <EventNoteIcon />,
-  url: '/user/note',
+  url: '/user/note/',
  },
  {
   name: 'Group',
